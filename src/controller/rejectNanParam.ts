@@ -1,4 +1,4 @@
-import { BadRequestError } from '@c7s/http-errors';
+import { BadRequestError } from '@melmedia/http-errors';
 
 export function rejectNanParam(param: string, value: number) {
   if (isNaN(value)) {

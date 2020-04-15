@@ -1,5 +1,5 @@
 import * as express from 'express';
-import { ServerConfig } from '@c7s/config';
+import { ServerConfig } from '@melmedia/config';
 import { Application } from './Application';
 import { Module } from './Module';
 export declare class WebApplication extends Application {

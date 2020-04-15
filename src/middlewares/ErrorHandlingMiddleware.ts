@@ -9,7 +9,7 @@ import {
   ClassValidatorError,
   BadRequestError,
   EntityTooLargeError,
-} from '@c7s/http-errors';
+} from '@melmedia/http-errors';
 import { inject, Type } from '../di';
 
 enum HttpCode {

@@ -11,7 +11,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const express = require("express");
 const routing_controllers_1 = require("routing-controllers");
-const config_1 = require("@c7s/config");
+const config_1 = require("@melmedia/config");
 const Application_1 = require("./Application");
 const AccessLogMiddlewareFactory_1 = require("./middlewares/AccessLogMiddlewareFactory");
 const di_1 = require("./di");

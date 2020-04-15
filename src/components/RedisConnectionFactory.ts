@@ -1,6 +1,6 @@
 import { injectable } from 'inversify';
 import * as IORedis from 'ioredis';
-import { RedisConfig } from '@c7s/config';
+import { RedisConfig } from '@melmedia/config';
 import { inject, Type } from '../di';
 
 @injectable()

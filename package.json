@@ -1,5 +1,5 @@
 {
-  "name": "@c7s/node-ts-framework",
+  "name": "@melmedia/node-ts-framework",
   "version": "0.0.1",
   "license": "UNLICENSED",
   "main": "dist/index.js",
@@ -9,8 +9,8 @@
     "tslint": "tslint --project ."
   },
   "dependencies": {
-    "@c7s/config": "c7s/config#dev",
-    "@c7s/http-errors": "c7s/http-errors#dev",
+    "@melmedia/config": "melmedia/config#dev",
+    "@melmedia/http-errors": "melmedia/http-errors#dev",
     "class-transformer": "^0.2.3",
     "inversify": "5.0.1",
     "inversify-binding-decorators": "4.0.0",

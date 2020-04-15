@@ -11,7 +11,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const inversify_1 = require("inversify");
 const IORedis = require("ioredis");
-const config_1 = require("@c7s/config");
+const config_1 = require("@melmedia/config");
 const di_1 = require("../di");
 let RedisConnectionFactory = class RedisConnectionFactory {
     async create() {
