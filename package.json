@@ -9,8 +9,8 @@
     "tslint": "tslint --project ."
   },
   "dependencies": {
-    "@melmedia/config": "melmedia/config#dev",
-    "@melmedia/http-errors": "melmedia/http-errors#dev",
+    "@melmedia/config": "melmedia/config#release-20200409-491457097",
+    "@melmedia/http-errors": "melmedia/http-errors#release-20200409-491457097",
     "class-transformer": "^0.2.3",
     "inversify": "5.0.1",
     "inversify-binding-decorators": "4.0.0",
