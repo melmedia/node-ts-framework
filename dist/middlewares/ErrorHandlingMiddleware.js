@@ -11,7 +11,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const log4js_1 = require("log4js");
 const routing_controllers_1 = require("routing-controllers");
-const http_errors_1 = require("@c7s/http-errors");
+const http_errors_1 = require("@melmedia/http-errors");
 const di_1 = require("../di");
 var HttpCode;
 (function (HttpCode) {

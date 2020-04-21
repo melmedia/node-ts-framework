@@ -1,7 +1,7 @@
 import { Logger } from 'log4js';
 import { Request, Response, NextFunction } from 'express';
 import { ValidationError } from 'class-validator';
-import { HttpError as CoreHttpError, ClassValidatorError } from '@c7s/http-errors';
+import { HttpError as CoreHttpError, ClassValidatorError } from '@melmedia/http-errors';
 export declare class ErrorHandlingMiddleware implements ErrorHandlingMiddleware {
     protected logger: Logger;
     error(error: Error, {}: Request, response: Response, next: NextFunction): void;

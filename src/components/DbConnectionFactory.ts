@@ -1,6 +1,6 @@
 import { injectable } from 'inversify';
 import { createConnection, Connection } from 'typeorm';
-import { DbConfig } from '@c7s/config';
+import { DbConfig } from '@melmedia/config';
 
 import { inject, Type } from '../di';
 import { Module } from '../Module';

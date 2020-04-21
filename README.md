@@ -7,9 +7,9 @@
 * Modules support
 * Unified AJAX error responses
 
-[Boilerplate](https://github.com/c7s/node-ts-microservice-boilerplate)
+[Boilerplate](https://github.com/melmedia/node-ts-microservice-boilerplate)
 
-[Yeoman generator](https://github.com/c7s/generator-node-ts-microservice)
+[Yeoman generator](https://github.com/melmedia/generator-node-ts-microservice)
 
 [Performance tests](https://github.com/melfa/node-framework-load-test) for routing-controllers, typeorm, log4js.
 
@@ -26,7 +26,7 @@ import {
   ClusteredWebApplication,
   Environment,
   middlewares,
-} from '@c7s/node-ts-framework';
+} from '@melmedia/node-ts-framework';
 import { Type } from './Type';
 
 export class AppModule extends Module {

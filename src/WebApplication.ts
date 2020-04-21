@@ -1,6 +1,6 @@
 import * as express from 'express';
 import { useExpressServer } from 'routing-controllers';
-import { ServerConfig } from '@c7s/config';
+import { ServerConfig } from '@melmedia/config';
 import { Server } from 'http';
 
 import { Application } from './Application';
@@ -61,7 +61,11 @@ export class WebApplication extends Application {
         });
       });
     } catch (e) {
-      this.logger.error(e);
+      if (!this.isInitialized) {
+        console.error(e);
+      } else {
+        this.logger.error(e);
+      }
       await this.end();
       process.exit(1);
     }
