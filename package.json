@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "@melmedia/config": "melmedia/config#dev",
-    "@melmedia/http-errors": "melmedia/http-errors#dev",
-    "class-transformer": "^0.2.3",
+    "@melmedia/http-errors": "melmedia/http-errors#release-567961279_podcast",
+    "class-transformer": "^0.3.1",
     "inversify": "5.0.1",
     "inversify-binding-decorators": "4.0.0",
     "inversify-inject-decorators": "3.1.0",
@@ -19,7 +19,7 @@
     "lodash.isstring": "4.0.1",
     "log4js": "6.1.2",
     "reflect-metadata": "0.1.13",
-    "routing-controllers": "0.8.0",
+    "routing-controllers": "0.9.0-alpha.6",
     "striptags": "3.1.1",
     "typeorm": "0.2.24"
   },
